@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman';
+}
+
+
+
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: #000;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+}
+.icon{
+    width: 200px;
+    height: 75px;
+    float: left;
+}
+
+.logo{
+    width: 150px;
+    height: 90px;
+    padding-left: 40px;
+    padding-top: 10px;
+    float: left;
+}
+
+.menu{
+    width: 400px;
+    height: 70px;
+    width: 100%;
+    flex: 1;
+    min-height: 100%;
+}
+
+.l{
+    margin-right: 25px;
+    min-height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.i:hover{
+    background-color: orange;
+    box-shadow: 0 0 10px 4px orange;
+}
+.l .i{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.l .i a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: o.4s ease-in-out;
+}
+
+
+h1{
+    color: rgb(255, 187, 0);
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+.b{
+    width: 95%;
+    height: 300px;
+    margin-top: 50px;
+    margin: 30px;
+    border: 2px solid #fff;
+}
+
+.par{
+    margin: 20px;
+    padding: 20px;
+    font-size: 1em;
+    color: #fff;
+    text-align: justify;
+}
+
+.m{
+    margin-left: 125px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.ms{
+    margin-left: 20px;
+    width: 230px;
+    height: 150px;
+    border: 2px solid #fff;
+}
+.ms1{
+    margin-left: 20px;
+    width: 230px;
+    height: 150px;
+    border: 2px solid #fff;
+}
+.ms2{
+    margin-left: 20px;
+    width: 230px;
+    height: 150px;
+    border: 2px solid #fff;
+}
+.ms3{
+    margin-left: 20px;
+    width: 230px;
+    height: 150px;
+    border: 2px solid #fff;
+}
+.ms4{
+    margin-left: 20px;
+    width: 230px;
+    height: 150px;
+    border: 2px solid #fff;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social a{
+    text-decoration: none;
+    background-color: #fff;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.social i{
+    font-size: 2em;
+    color: #000;
+    opacity: 0.9;
+}
+.social a:hover{
+    background-color: blue;
+    transition: 0.5s;
+}
+.social i:hover{
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+
+  
+  
